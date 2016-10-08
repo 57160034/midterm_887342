@@ -152,6 +152,32 @@ end
 puts array_rus8
 
 
+puts "ข้อ 5 "
+
+array_rus_M_N_S = Array.new
+
+nn=0
+
+US_states.each do |us|
+    if(us[0]=="M"||us[0]=="N"||us[0]=="S")
+        uu = us.length-1
+        if(us[uu]=="a"||us[uu]=="e"||us[uu]=="i"||us[uu]=="o"||us[uu]=="u")
+        
+    array_rus_M_N_S << us
+end
+end
+  
+end
+
+puts array_rus_M_N_S
+
+puts "ข้อ 6"
+
+abbr_states_revears = abbr_states
+
+array.sort { |x,y| y<=>x }
+
+
 
 
 
