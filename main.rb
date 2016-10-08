@@ -173,9 +173,9 @@ puts array_rus_M_N_S
 
 puts "ข้อ 6"
 
-abbr_states_revears = abbr_states
+abbr_states_revears = US_states
 
-array.sort { |x,y| y<=>x }
+abbr_states_revears.sort { |x,y| y<=>x }
 
 
 
