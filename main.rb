@@ -54,19 +54,25 @@ puts "ข้อ 3 "
 
 
 def  build_tuple_array(number)
-    
+     a = (0 .. 1).to_a
      nub1 = 1
+    
     until nub1 > number
     
+    b = (0 .. number-1).to_a
     
+    a << b
     
     #puts nub1
     nub1 = nub1 + 1
 end
-    
-    
-
+    return a
 end
+
+#puts build_tuple_array (5)
+
+puts "ข้อ 4 "
+
 
 
 
