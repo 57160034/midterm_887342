@@ -138,7 +138,18 @@ abbr_states = [ ["AK", "Alaska"],
 
 puts "ข้อ 4 "
 
+array_rus8 = Array.new
 
+nn=0
+
+US_states.each do |us|
+    
+    array_rus8 << us
+    
+  
+end
+
+puts array_rus8
 
 
 
